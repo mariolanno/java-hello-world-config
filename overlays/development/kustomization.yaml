@@ -12,8 +12,8 @@ resources:
 - ingress.yaml
 images:
 - name: dennydgl1/java-hello-world
-  newName: dennydgl1/java-hello-world
-  newTag: "3.0"
+  newName: docklyear/java-hello-world
+  newTag: "my-feature-1"
 configMapGenerator:
  - behavior: merge
    name: java-hello-world-cm
